@@ -7,6 +7,6 @@ CREATE TABLE `test`.`user` (
 `IS_ADMIN` BIT(1) NOT NULL DEFAULT 0,
 `CREATED_DATE` TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
 
-INSERT INTO `test`.`user` (`NAME`, `AGE`) VALUES ('Kola', '21');
-INSERT INTO `test`.`user` (`NAME`, `AGE`) VALUES ('Vasa', '23');
-INSERT INTO `test`.`user` (`NAME`, `AGE`) VALUES ('Dande', '56');
+INSERT INTO `test`.`user` (`NAME`, `AGE`) VALUES ('Artem', '21');
+INSERT INTO `test`.`user` (`NAME`, `AGE`) VALUES ('Anton', '23');
+INSERT INTO `test`.`user` (`NAME`, `AGE`) VALUES ('Vadim', '56');
