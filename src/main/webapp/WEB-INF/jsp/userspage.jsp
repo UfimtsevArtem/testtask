@@ -11,6 +11,7 @@
 <center>
 <h1>Users</h1>
 <c:url var="addUrl" value="/jvtestbd/main/users/add" />
+	<td>Add someone to list of users <a href="${addUrl}">Add</a><br></td>
 	<c:url var="filterUrl" value="/jvtestbd/main/users/filter" />
 <table style="border: 2px solid; width: 650px; text-align:center">
 	<thead style="">
@@ -35,7 +36,6 @@
 			<td><c:out value="${user.date}" /></td>
 			<td><a href="${editUrl}">Edit</a></td>
 			<td><a href="${deleteUrl}">Delete</a></td>
-			<td><a href="${addUrl}">Add</a></td>
 		</tr>
 	</c:forEach>
 	</tbody>
